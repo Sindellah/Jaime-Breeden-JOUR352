@@ -1,10 +1,12 @@
-<style>
+/*styles for resume*/
 	body{
-		font-family: sans-s;
+		background-color: #2b2f33;
+		font-family: arial, sans-serif;
+		color: #f0c77a;}
 	}
 	
 	h1{
-		color: maroon;
+		color: #e79b3b;
+		font-family: arial, sans-serif;
 		font-size: 36px;
 	}
-</style>
