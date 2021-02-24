@@ -7,7 +7,7 @@
 	}
 	
 	h1{ /*name/header mods*/
-		background-color: #2F2C29;
+		/*background-color: #2F2C29;*/
 		color: #e79b3b;
 		font-family: arial, sans-serif;
 		font-size: 3em;
@@ -15,9 +15,37 @@
 		text-transform: uppercase;
 	}
 	
-	h8{
+	h6{
 		color: #EBB44C;
 		font-size: 1.5em;
 		text-align: center;
 		tet-transform: uppercase;
+	}
+	
+	h2{
+		background-color: #2F2C29;
+		color: #F08C7A;
+		font-size: 1.5em;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	
+	h3{
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+	
+	h4{
+		font-size: 1.5em;
+		font-weight: 400;
+	}
+	
+	h5{
+		font-size: 1em;
+		font-style: italic;
+		font-weight: 400;
+	}
+	
+	ul{
+		font-size: 1em;
 	}
