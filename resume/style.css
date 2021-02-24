@@ -1,5 +1,5 @@
 /*styles for resume*/
-	body{
+	body{ /*basically everything*/
 		background-color: #292c2f;
 		color: #f0c77a;
 		font-family: 'Open sans', arial, sans-serif;
@@ -15,14 +15,14 @@
 		text-transform: uppercase;
 	}
 	
-	h6{
+	h6{ /*personal title*/
 		color: #EBB44C;
 		font-size: 1.5em;
 		text-align: center;
 		tet-transform: uppercase;
 	}
 	
-	h2{
+	h2{ /* section headers*/
 		background-color: #2F2C29;
 		color: #F08C7A;
 		font-size: 1.5em;
@@ -30,22 +30,36 @@
 		text-transform: uppercase;
 	}
 	
-	h3{
+	h3{ /*job titles*/
 		font-size: 1.5em;
 		font-weight: 600;
 	}
 	
-	h4{
+	h4{ /*job orgs*/
 		font-size: 1.5em;
 		font-weight: 400;
 	}
 	
-	h5{
+	h5{ /*job dates*/
 		font-size: 1em;
 		font-style: italic;
 		font-weight: 400;
 	}
 	
-	ul{
+	ul{ /*contacts, skills, ed.*/
 		font-size: 1em;
+	}
+	
+	a:link{
+		color:#DEF07A;
+		text-decoration: none;
+	}
+	
+	a:visited{
+		color:#3d4708;
+		text-decoration: none;
+	}
+	
+	a:hover{
+		text-decoration: underline;
 	}
