@@ -1,12 +1,23 @@
 /*styles for resume*/
 	body{
-		background-color: #2b2f33;
-		font-family: arial, sans-serif;
-		color: #f0c77a;}
+		background-color: #292c2f;
+		color: #f0c77a;
+		font-family: 'Open sans', arial, sans-serif;
+		font-size: 1em;
 	}
 	
-	h1{
+	h1{ /*name/header mods*/
+		background-color: #2F2C29;
 		color: #e79b3b;
 		font-family: arial, sans-serif;
-		font-size: 36px;
+		font-size: 3em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	h8{
+		color: #EBB44C;
+		font-size: 1.5em;
+		text-align: center;
+		tet-transform: uppercase;
 	}
