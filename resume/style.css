@@ -32,29 +32,31 @@
 		font-size: 1.5em;
 		font-weight: 400;
 		text-transform: uppercase;
-		margin-bottom: 10px;
+		/*margin-bottom: 10px;
 		margin-top: 20px;
 		margin-left: 0;
-		margin-right: 0;
+		margin-right: 0;*/
+		margin: 20px 0px 10px 0px; /*found this instead! Top > Right > Bottom > Left*/
 		width: 70%;
 		min-width: 300px;
 	}
 	
 	.jobtitle { /*job titles*/
-		font-size: 1.5em;
+		font-size: 1.5em; /*font change*/
 		font-weight: 600;
 	}
 	
-	h4 { /*job orgs*/
-		font-size: 1.5em;
+	.organization { /*job orgs*/
+		font-size: 1.25em;
 		font-weight: 400;
 	}
 	
-	h5 { /*job dates*/
+	.date { /*job dates*/
 		font-size: 1em;
 		font-style: italic;
 		font-weight: 400;
-	}
+		margin: 2px 0px 0px;
+	}	
 	
 	ul { /*contacts, skills, ed.*/
 		font-size: 1em;
