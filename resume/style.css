@@ -23,7 +23,7 @@
 		color: #EBB44C;
 		font-size: 1.5em;
 		text-align: center;
-		tet-transform: uppercase;
+		text-transform: uppercase;
 	}
 	
 	.sectionheader { /* section headers*/
@@ -36,7 +36,7 @@
 		margin-top: 20px;
 		margin-left: 0;
 		margin-right: 0;*/
-		margin: 20px 0px 10px 0px; /*found this instead! Top > Right > Bottom > Left*/
+		margin: 20px 0px 10px 0px; /*found this instead! Top > Right > Bottom > Left (Like a clock!)*/
 		width: 70%;
 		min-width: 300px;
 	}
@@ -58,8 +58,20 @@
 		margin: 2px 0px 0px;
 	}	
 	
-	ul { /*contacts, skills, ed.*/
+	.menu { /*contacts, skills, ed.*/
 		font-size: 1em;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+
+	.description{
+		margin: 10px 0px;
+	}
+
+	.menu li { /*This guy does each element, don't overlap here and '.menu'*/
+		display: inline;
+		list-style-type: none;
 	}
 	
 /*Time to go overboard*/
