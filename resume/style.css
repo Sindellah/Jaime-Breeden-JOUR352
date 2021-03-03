@@ -26,15 +26,21 @@
 		tet-transform: uppercase;
 	}
 	
-	h2 { /* section headers*/
+	.sectionheader { /* section headers*/
 		background-color: #2F2C29;
 		color: #F08C7A;
 		font-size: 1.5em;
 		font-weight: 400;
 		text-transform: uppercase;
+		margin-bottom: 10px;
+		margin-top: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		width: 70%;
+		min-width: 300px;
 	}
 	
-	h3 { /*job titles*/
+	.jobtitle { /*job titles*/
 		font-size: 1.5em;
 		font-weight: 600;
 	}
