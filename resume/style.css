@@ -1,28 +1,32 @@
-/*styles for resume*/
-	body{ /*basically everything*/
+/*styles for resume | Hope you like Fall colors :)*/
+	body { /*basically everything*/
 		background-color: #292c2f;
 		color: #f0c77a;
 		font-family: 'Open sans', arial, sans-serif;
 		font-size: 1em;
 	}
 	
-	h1{ /*name/header mods*/
+	#name { /*name/header mods*/
 		/*background-color: #2F2C29;*/
 		color: #e79b3b;
 		font-family: arial, sans-serif;
 		font-size: 3em;
 		text-align: center;
 		text-transform: uppercase;
+		border: 1px solid #FEB963;
+		width: 60%;
+		min-width: 300px;
+		margin: 0 auto;
 	}
 	
-	h6{ /*personal title*/
+	h6 { /*personal title*/
 		color: #EBB44C;
 		font-size: 1.5em;
 		text-align: center;
 		tet-transform: uppercase;
 	}
 	
-	h2{ /* section headers*/
+	h2 { /* section headers*/
 		background-color: #2F2C29;
 		color: #F08C7A;
 		font-size: 1.5em;
@@ -30,36 +34,37 @@
 		text-transform: uppercase;
 	}
 	
-	h3{ /*job titles*/
+	h3 { /*job titles*/
 		font-size: 1.5em;
 		font-weight: 600;
 	}
 	
-	h4{ /*job orgs*/
+	h4 { /*job orgs*/
 		font-size: 1.5em;
 		font-weight: 400;
 	}
 	
-	h5{ /*job dates*/
+	h5 { /*job dates*/
 		font-size: 1em;
 		font-style: italic;
 		font-weight: 400;
 	}
 	
-	ul{ /*contacts, skills, ed.*/
+	ul { /*contacts, skills, ed.*/
 		font-size: 1em;
 	}
 	
-	a:link{
+/*Time to go overboard*/
+	a:link {
 		color:#DEF07A;
 		text-decoration: none;
 	}
 	
-	a:visited{
+	a:visited {
 		color:#3d4708;
 		text-decoration: none;
 	}
 	
-	a:hover{
+	a:hover {
 		text-decoration: underline;
 	}
