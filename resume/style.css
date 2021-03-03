@@ -6,6 +6,13 @@
 		font-size: 1em;
 	}
 	
+	.container{ /*Why it wont scroll anymore*/
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-bottom: 50px
+	}
+
 	#name { /*name/header mods*/
 		/*background-color: #2F2C29;*/
 		color: #e79b3b;
@@ -19,11 +26,13 @@
 		margin: 0 auto;
 	}
 	
-	h6 { /*personal title*/
+	#title { /*personal title*/
 		color: #EBB44C;
 		font-size: 1.5em;
 		text-align: center;
 		text-transform: uppercase;
+		font-weight: 600;
+		margin: 20px 0px 0px;
 	}
 	
 	.sectionheader { /* section headers*/
@@ -65,7 +74,7 @@
 		text-align: center;
 	}
 
-	.description{
+	.description {
 		margin: 10px 0px;
 	}
 
@@ -73,8 +82,16 @@
 		display: inline;
 		list-style-type: none;
 	}
+
+	#degrees {
+		margin: 5px 0px 0px;
+	}
+
+	#do {
+		margin: 5px 0px 0px;
+	}
 	
-/*Time to go overboard*/
+/*Time to go overboard - META Menu*/
 	a:link {
 		color:#DEF07A;
 		text-decoration: none;
@@ -87,4 +104,12 @@
 	
 	a:hover {
 		text-decoration: underline;
+	}
+/*META Menu - End*/
+
+	.top{
+		width: 60%;
+		min-width: 300px;
+		margin: 0 auto;
+		margin-bottom: 30px; /*Do it like this so you can auto center*/
 	}
