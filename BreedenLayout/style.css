@@ -12,26 +12,27 @@
 
 #byline {
 	font-family: Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: italic;
 }
 
 h1 {
 	font-family: Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 600px;
 }
 
 blockquote {
 	color: #d23f10;
-	font: 24px Courier;
+	font: 18px Courier;
 	font-style: italic;
 	font-weight: bold;
 }
 
 p {
 	font-family: Georgia, serif;
-	font-size: 13px;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
 .image {
