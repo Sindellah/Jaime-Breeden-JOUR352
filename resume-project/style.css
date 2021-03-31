@@ -1,14 +1,37 @@
-body {
-	background-color: #292d2d;
-	color: white;
-	font-family:'Montserrat', serif;
-}
-
 nav {
-	font-family: 'Merriweather', cursive;
+	font-family: 'Merriweather', serif;
 	font-weight: bold;
 	font-size: 20px;
 	color: blue !important;
+}
+
+.container {
+	margin: auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+body {
+	background-color: #292d2d;
+	color: white;
+	font-family:'Montserrat', sans-serif;
+	font-size: 18px
+}
+
+h1 {
+	background-color: #3f4545;
+	font-style: italic;
+	font-size: 40px;
+	color: #A02D49;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+.video {
+	max-width: 100%;
+	text-align: center;
 }
 
 #header {
@@ -22,12 +45,52 @@ nav {
 #self {
 	text-align: center;
 	display: block;
-	margin: 0 auto;
+	margin: 30px auto;
 	width: 80%;
 }
 
-.container {
-	margin: 0 auto;
-	/*width: 100%*/
-	max-width: 1200px;
+.center {
+	margin-top: 20px;
+	text-align: center;
 }
+
+.skills {
+	list-style-type: square;
+	margin: 0;
+	padding: 0;
+	line-height: 1.75;
+}
+
+@media screen and (min-width:770px) {
+	#self{min-width:80%;}
+}
+
+@media screen and (max-width:770px) {
+	#self{width:50%; max-width:80%;}
+}
+
+.jobtitle { /*job titles*/
+		font-size: 1.5em; /*font change*/
+		font-weight: 600;
+	}
+	
+.organization { /*job orgs*/
+	font-size: 1.25em;
+	font-weight: 400;
+}
+
+.date { /*job dates*/
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+	margin: 2px 0px 0px;
+}
+
+#foto {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+}
+
+	
+	
