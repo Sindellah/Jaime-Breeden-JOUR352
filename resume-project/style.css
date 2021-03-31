@@ -1,11 +1,33 @@
-body{
+body {
 	background-color: #292d2d;
-	color: #e4d4c6;
-	font-family:'Josefin Slab', serif;
+	color: white;
+	font-family:'Montserrat', serif;
 }
 
 nav {
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Merriweather', cursive;
 	font-weight: bold;
-	font-size: 20px !important;
+	font-size: 20px;
+	color: blue !important;
+}
+
+#header {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#self {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.container {
+	margin: 0 auto;
+	/*width: 100%*/
+	max-width: 1200px;
 }
