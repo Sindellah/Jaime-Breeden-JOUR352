@@ -5,21 +5,21 @@
 }
 
 #headline{
-	font-family: 'Karantina', serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 3em;
 	font-weight:500;
 	text-align: center;
 }
 
 #byline{
-	font-family: 'Karantina', serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1em;
 	text-transform: uppercase;
 	text-align: center;
 }
 
 .title{
-	font-family: 'Karantina', serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 2em;
 	font-weight:500;
 }
@@ -29,7 +29,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 65%;
+	width: 75%;
 }
 
 .caption{
@@ -41,10 +41,10 @@
 }
 
 .footer{
-	background-color: black !important;
+	background-color: #232B2F !important;
 	color: white !important;
 	text-align: center !important;
-	font-family:'Karantina', serif !important;
+	font-family:'Poppin', serif !important;
 }
 
 #navlogo{
@@ -54,9 +54,15 @@
 }
 
 .line{
-	border: 1px solid #90963e;
+	border: 1px solid #E76F51;
 	color: #E76F51;
 	width: 40% ;
+}
+
+.line2{
+	border: 1px solid #E76F51;
+	color: #90963e;
+	width: 25% ;
 }
 
 /*splash img*/
@@ -102,16 +108,17 @@
 }
 
 .quote{
-	color: #E76F51;
+	color: #90963e;
 	font-family: 'Poppins', sans-serif;
 	font-size: 2em;
-	font-weight: 700;
+	font-weight: 500;
 	text-align: Center;
 	margin:0 auto;
 }
 
 .quoted{
 	color: black;
+	font-family: 'Poppins', sans-serif;
 	font-size: .8em;
 	font-style: italic;
 	font-weight: 400;
@@ -119,9 +126,9 @@
 }
 
 .chapter{
-	color: #90963e;
+	color: #E76F51;
 	font-size: 2em;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .credit{
@@ -143,20 +150,21 @@ p{
 }
 
 a:link{
-	color:#DEF07A;
+	color:#A26288;
 	text-decoration: none;
 }
 
 a:visited{
-	color:#3d4708;
+	color:#5D87AD;
 	text-decoration: none;
 }
 
 a:hover{
+	color:#7C4365;
 	text-decoration: underline;
 }
 
-@media(max-width:1100px){
+@media(max-width:1250px){
 	p{
 		padding-left:20px;
 		padding-right:20px;
@@ -167,9 +175,24 @@ a:hover{
 		text-shadow: -5px -3px #f4A261, -10px -6px #E76F51;
 	}
 }
-@media(max-width:800px){
+@media(max-width:950px){
 	.herohed{
-		font-size:4em !important;
+		font-size:4.5em !important;
+		margin-left:2px;
+		text-shadow: -3px -2px #f4A261, -6px -4px #E76F51;
+	}
+}
+
+@media(max-width:750px){
+	.herohed{
+		font-size:3em !important;
+		margin-left:2px;
+		text-shadow: -3px -2px #f4A261, -6px -4px #E76F51;
+	}
+}
+@media(max-width:750px){
+	.herohed{
+		font-size:2.75em !important;
 		margin-left:2px;
 		text-shadow: -3px -2px #f4A261, -6px -4px #E76F51;
 	}
