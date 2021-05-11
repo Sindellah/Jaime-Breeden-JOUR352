@@ -170,6 +170,10 @@ body{
 	font-size: 1.1em;
 }
 
+.fa-cog {
+  color: #57d07b;
+}
+
 p{
 	font-family: 'Open Sans', sans-serif;
 	line-height: 150%;
